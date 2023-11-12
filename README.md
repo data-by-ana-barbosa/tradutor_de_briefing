@@ -4,9 +4,9 @@
 
 Este script em Python utiliza a biblioteca Googletrans para traduzir um arquivo de briefing de projeto de inglês para português.
 
-## ETAPAS
+### ETAPAS
 
-# --- TESTE DE CONEXÃO ---
+## --- TESTE DE CONEXÃO ---
 Verifica a conexão com a internet para garantir acesso à API de tradução do Google.
 
 # --- ETAPA 01: Leitura de arquivo ---

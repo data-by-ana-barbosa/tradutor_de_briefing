@@ -5,6 +5,12 @@ Este script em Python utiliza a biblioteca Googletrans para traduzir um arquivo 
 
 ### Etapas
 <pre>
+
+  | Cabeçalho 1 | Cabeçalho 2 |
+|-------------|-------------|
+| Dado 1      | Dado 2      |
+
+  
 **Teste de Conexão**
 Verifica a conexão com a internet para garantir acesso à API de tradução do Google.
 
@@ -18,14 +24,15 @@ Utiliza a API Googletrans para traduzir o conteúdo para o português.
 Escreve o resultado da tradução em um novo arquivo.
 </pre>
 
-## Pré-Requisitos
+### Pré-Requisitos
+<pre>
 Certifique-se de ter Python instalado no seu ambiente. Além disso, instale as dependências necessárias executando:
 
 ```bash
 pip install googletrans==4.0.0-rc1
 ```
 
-## Como Usar
+### Como Usar
 
 ```bash
 # Clone este repositório
@@ -36,10 +43,11 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 
 ```bash
-# Execute o script:
+# Execute o script
 python nome_do_script.py
+</pre>
 
-## Configuração
+### Configuração
 
 Certifique-se de que os arquivos de briefing em inglês e português estão no mesmo diretório que o script. Os nomes dos arquivos podem ser ajustados no script conforme necessário.
 

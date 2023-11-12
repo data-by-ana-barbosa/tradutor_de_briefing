@@ -1,12 +1,12 @@
 -----------------------------------------
----- TRADUÇÃO DE BRIEFING DE PROJETO ----
+TRADUÇÃO DE BRIEFING DE PROJETO
 -----------------------------------------
 
 Este script em Python utiliza a biblioteca Googletrans para traduzir um arquivo de briefing de projeto de inglês para português.
 
 ## Etapas
 
-### TESTE DE CONEXÃO
+** TESTE DE CONEXÃO **
 Verifica a conexão com a internet para garantir acesso à API de tradução do Google.
 
 ### ETAPA 01: Leitura de arquivo
@@ -31,10 +31,12 @@ pip install googletrans==4.0.0-rc1
 # Clone este repositório
 git clone https://github.com/seu-usuario/seu-repositorio.git
 
-```bash: Navegue até o diretório do projeto
+```bash
+# Navegue até o diretório do projeto
 cd seu-repositorio
 
-```bash: Execute o script:
+```bash
+# Execute o script:
 python nome_do_script.py
 
 ## Configuração

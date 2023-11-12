@@ -1,0 +1,71 @@
+--------------------------------------------------------------------------------
+                  Briefing de projeto de tecnologia da informação
+--------------------------------------------------------------------------------
+
+** Nome do projeto: ** Sistema de Gerenciamento de Tarefas Online (OTMS)
+
+**Objetivo do projeto:**
+Desenvolva e implemente um sistema baseado na Web para gerenciamento de tarefas eficientes, com o objetivo de aprimorar a colaboração e a produtividade da equipe.
+
+** Data de início: ** 12/01/2023
+
+** Data final projetada: ** 30/06/2024
+
+** Equipe de projeto: **
+- Gerente de projeto: [nome]
+- desenvolvedores:
+  1. [Nome]
+  2. [Nome]
+  3. [Nome]
+- Analista de sistemas: [Nome]
+- Testador: [Nome]
+
+**Requisitos funcionais:**
+1. Registro do usuário com diferentes níveis de permissão (administrador, membro da equipe, convidado).
+2. Criação, edição e exclusão de tarefas.
+3. Atribuição de tarefas a membros específicos da equipe.
+4. Monitorando o progresso da tarefa através de um painel de controle.
+5. Comentários e anexos em cada tarefa para facilitar a comunicação.
+6. Notificações por e -mail para atualizações importantes.
+
+**Requerimentos técnicos:**
+1. Desenvolvimento em Python usando a estrutura do Django.
+2. Banco de dados PostGresql para armazenamento de dados.
+3. Interface de usuário responsiva e fácil de usar.
+4. Integração com um serviço de envio de email para notificações.
+5. Implementação de testes automatizados.
+
+** Estrutura do banco de dados: **
+- Tabela "Usuários":
+  - ID (chave primária)
+  - Nome
+  - E-mail
+  - Senha
+  - Nível de permissão
+
+- Tabela "Tasks":
+  - ID (chave primária)
+  - Título
+  - Descrição
+  - Cessionário
+  - Status
+  - Data de início
+  - Data prevista de conclusão
+
+** Entregas: **
+1. Código fonte do projeto.
+2. Documentação do projeto.
+3. Manual do usuário.
+4. Relatório de teste.
+
+** Riscos: **
+1. Atraso na entrega devido a problemas imprevistos de desenvolvimento.
+2. Desafios na integração com o serviço de envio de email.
+3. Alterações nos requisitos durante o desenvolvimento.
+
+** Orçamento estimado: ** $ 50.000,00
+
+** Aprovação do cliente: **
+[Assinatura do cliente]
+
+--------------------------------------------------------------------------------
